@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.testmenu.RegControllers.LoggedInController">
+   <children>
+      <Label fx:id="label_welcome" layoutX="186.0" layoutY="53.0" text="Добро пожаловать!" textAlignment="CENTER">
+         <font>
+            <Font name="Droid Sans" size="25.0" />
+         </font>
+      </Label>
+      <Button fx:id="button_logout" layoutX="274.0" layoutY="188.0" mnemonicParsing="false" text="Выйти" />
+   </children>
+</AnchorPane>
